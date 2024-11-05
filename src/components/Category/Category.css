@@ -1,0 +1,43 @@
+/* Estilos para el Category */
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.category {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.category-name {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.view-category {
+    background-color: #ff6600; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.view-category:hover {
+    background-color: #cc5200; /* Color al pasar el ratón */
+}

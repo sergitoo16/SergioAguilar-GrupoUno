@@ -1,0 +1,50 @@
+/* Estilos para el ItemDetail */
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.item-detail-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item-detail-name {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.item-detail-description {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+}
+
+.item-detail-price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #ff6600; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #cc5200; /* Color al pasar el ratón */
+}

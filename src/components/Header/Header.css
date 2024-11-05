@@ -1,0 +1,53 @@
+/* Estilos para el header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc00; /* Color de fondo amarillo */
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333; /* Color del texto */
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: #ff6600; /* Color al pasar el ratón */
+}
+
+.cart {
+    margin-left: auto; /* Empuja el carrito hacia la derecha */
+}
+
+.cart-button {
+    background-color: #ff6600; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart-button:hover {
+    background-color: #cc5200; /* Color al pasar el ratón */
+}

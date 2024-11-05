@@ -1,0 +1,29 @@
+/* src/components/CategoryList.css */
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category-image {
+    width: 100%;
+    height: auto;
+}
+
+.category-name {
+    text-align: center;
+    padding: 10px;
+}
