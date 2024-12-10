@@ -1,4 +1,6 @@
+// Contact.jsx
 import React, { useState } from 'react';
+import './Contact.css'; // Importa el CSS
 
 function Contact() {
   const [email, setEmail] = useState('');
@@ -26,4 +28,3 @@ function Contact() {
 }
 
 export default Contact;
-  

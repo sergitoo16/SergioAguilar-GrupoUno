@@ -1,0 +1,27 @@
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espaciado interno */
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centrar verticalmente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+nav h1 {
+    margin: 0; /* Eliminar margen del título */
+    font-size: 24px; /* Tamaño de fuente del título */
+}
+
+/* Estilos para los enlaces (si decides agregar enlaces en el futuro) */
+nav a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    margin-left: 20px; /* Espaciado entre enlaces */
+    font-size: 18px; /* Tamaño de fuente de los enlaces */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}

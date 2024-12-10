@@ -1,0 +1,14 @@
+.product-item {
+    flex: 1 1 calc(33.333% - 20px); /* Tres productos por fila, con espacio entre ellos */
+    margin: 10px; /* Espaciado entre productos */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Centra el texto */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: transform 0.2s; /* Transición suave para el efecto hover */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05); /* Efecto de hover */
+  }

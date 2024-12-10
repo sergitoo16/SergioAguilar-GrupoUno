@@ -1,0 +1,32 @@
+section {
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+h2 {
+    font-size: 2em; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Margen inferior */
+    text-align: center; /* Centrar el título */
+}
+
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+li {
+    font-size: 1.2em; /* Tamaño de fuente de los elementos de la lista */
+    color: #555; /* Color del texto */
+    margin: 10px 0; /* Margen superior e inferior */
+    padding: 10px; /* Espaciado interno */
+    border-left: 4px solid #4CAF50; /* Línea a la izquierda */
+    transition: background-color 0.3s; /* Transición suave para el efecto hover */
+}
+
+li:hover {
+    background-color: #e0f7e0; /* Color de fondo al pasar el mouse */
+}

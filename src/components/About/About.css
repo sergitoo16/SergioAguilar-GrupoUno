@@ -1,0 +1,22 @@
+section {
+    background-color: #f4f4f4; /* Color de fondo claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 20px 0; /* Margen superior e inferior */
+    text-align: center; /* Centrar el contenido */
+}
+
+h2 {
+    font-size: 2em; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 15px; /* Margen inferior */
+}
+
+p {
+    font-size: 1.2em; /* Tamaño de fuente del párrafo */
+    color: #555; /* Color del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+    max-width: 600px; /* Ancho máximo del párrafo */
+    margin: 0 auto; /* Centrar el párrafo */
+}

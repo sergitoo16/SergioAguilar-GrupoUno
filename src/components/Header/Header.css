@@ -1,53 +1,55 @@
-/* Estilos para el header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffcc00; /* Color de fondo amarillo */
-    padding: 10px 20px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    position: relative; /* Para posicionar el botón del carrito */
 }
 
-.logo h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #333; /* Color del texto */
+.header-title {
+    font-size: 2.5em; /* Tamaño de fuente para el título */
+    margin: 0; /* Eliminar margen */
 }
 
-.nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav ul li {
-    margin: 0 15px;
-}
-
-.nav ul li a {
-    text-decoration: none;
-    color: #333; /* Color del texto */
-    font-weight: bold;
-}
-
-.nav ul li a:hover {
-    color: #ff6600; /* Color al pasar el ratón */
-}
-
-.cart {
-    margin-left: auto; /* Empuja el carrito hacia la derecha */
+.header-slogan {
+    font-size: 1.2em; /* Tamaño de fuente para el eslogan */
+    margin: 10px 0; /* Margen superior e inferior */
 }
 
 .cart-button {
-    background-color: #ff6600; /* Color del botón */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 16px;
+    background-color: #ff9800; /* Color de fondo para el botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    font-size: 1em; /* Tamaño de fuente del botón */
+    position: absolute; /* Posicionar el botón */
+    top: 20px; /* Desde la parte superior */
+    right: 20px; /* Desde la derecha */
 }
 
 .cart-button:hover {
-    background-color: #cc5200; /* Color al pasar el ratón */
+    background-color: #e68900; /* Color de fondo al pasar el mouse */
+}
+
+.header ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+    margin: 15px 0 0; /* Margen superior */
+}
+
+.header ul li {
+    display: inline; /* Mostrar elementos en línea */
+    margin: 0 15px; /* Margen entre elementos */
+}
+
+.header ul li a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de fuente del enlace */
+}
+
+.header ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
 }

@@ -1,4 +1,6 @@
+// Features.jsx
 import React from 'react';
+import './Features.css'; 
 
 function Features() {
   return (
